@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const itemsPerPage = 9;
-  const apiUrl = "http://127.0.0.1:8000/api/projects/";
+  const apiUrl = "https://supmodel-app-production.up.railway.app/api/projects/";
   const themes = {
     1: "Здравоохранение",
     2: "Образование",

@@ -1,9 +1,11 @@
 document.getElementById("firstButton").addEventListener("click", function () {
-  window.location.href = "http://localhost:8000/checkout";
+  window.location.href =
+    "https://supmodel-app-production.up.railway.app/checkout";
 });
 
 document
   .getElementById("secondaryButton")
   .addEventListener("click", function () {
-    window.location.href = "http://localhost:8000/projectlist";
+    window.location.href =
+      "https://supmodel-app-production.up.railway.app/api/projectlist";
   });
